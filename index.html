@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Phaser - ES6 - Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #content{
+            width:99vw;
+            height:99vh;
+            margin:0 auto;
+            overflow:hidden;
+        }
+        
+        @font-face {
+          font-family: "Riffic-Bold";
+          src: url("./assets/fonts/Riffic-Bold.woff2") format("woff2"); 
+        }
+        @font-face {
+         font-family: 'Modak', cursive;
+          src: url('https://fonts.googleapis.com/css2?family=Modak&display=swap'); 
+        }
+
+        @font-face {
+        font-family: 'Lato', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Lato&family=Modak&display=swap'); 
+        }
+        @font-face {
+        font-family: 'Indie Flower', cursive;
+        src: url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato&family=Modak&display=swap'); 
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div id="content"></div>
+    <script src="dist/vendor.bundle.js"></script>
+    <script src="dist/bundle.js"></script>
+
+</body>
+
+</html>
